@@ -1,0 +1,28 @@
+body {
+ margin: 0px; 
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+.header {
+ display: flex;   
+ flex-direction: column;
+ align-items: center;
+}
+
+.logo, .awesome-website-text {
+ color: #F9FAF8;   
+}
+
+.website-info, .logo {
+ align-self: start;   
+}
+
+.hero, .header p {
+ color: #E5E7EB;    
+}
+
+.header {
+ margin-top: 0px;   
+ background-color: #1F2937;   
+}
