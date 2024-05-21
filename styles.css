@@ -4,30 +4,39 @@ body {
  box-sizing: border-box;
 }
 
+
+
 .logo, .awesome-website-text, .sign-up-button {
- font-weight: bold;   
+ font-weight: bolder;   
 }
 
 .logo, .awesome-website-text {
  color: #F9FAF8;   
 }
 
+.awesome-website-text {
+ font-size: 48px;   
+}
+
+.logo {
+ font-size: 24px;   
+}
+
 .navbar {
- padding-left: 200px;
- padding-right: 200px;   
  display: flex;
- justify-content: space-between;   
+ justify-content: center;
+ gap: 500px;   
  flex-direction: row;
  align-self: start;
 }
 
-.website-info {
+.website-info {   
  margin-top: 50px; 
- padding-left: 200px;
- padding-right: 200px;
+ padding: 50px;
  display: flex;
  flex-direction: row;
- justify-content: space-between;    
+ justify-content: center;
+ gap: 200px;    
 }
 
 .sign-up-button {
@@ -40,7 +49,9 @@ body {
 }
 
 .placeholder-image {
- align-items: center;  
+ display: flex;
+ justify-content: center;
+ align-items: center; 
  width: 400px; 
  background-color: gray;   
 }
@@ -63,7 +74,121 @@ body {
  color: #E5E7EB;    
 }
 
+.secondary {
+ font-size: 1;   
+}
+
 .header {
  margin-top: 0px;   
  background-color: #1F2937;   
+}
+
+.content {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;   
+}
+
+.content h1 {
+ font-size: 36px;   
+}
+
+.information {
+ display: flex;
+ flex-direction: row; 
+ margin-bottom: 100px;
+ gap: 10px;  
+}
+
+.information p {
+ width: 155px;
+ text-align: center;   
+}
+
+.quote-section {
+ padding-top: 50px;   
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ background-color: #E5E7EB;   
+}
+
+.quote {
+ color: #1F2937;
+ width: 600px;
+ font-size: 36px;    
+}
+
+.sign-up {
+ display: flex; 
+ border-radius: 10px;
+ height: 90px;
+ align-items: center; 
+ justify-content: space-between;
+ margin: 100px;
+ gap: 100px;
+ padding-left: 100px;
+ padding-right: 100px; 
+ background-color: #3882F6;   
+}
+
+.sign-up-button.button-border {
+ border: 3px solid white;   
+}
+
+.action-text {
+ font-weight: bold;   
+}
+
+.action p {
+ color: white;   
+ margin: 0px;
+ padding: 0px;   
+}
+
+.image-holder {
+ align-self: start; 
+ border-radius: 10px;
+}
+
+.Thor {
+ font-weight: bold;   
+ align-self: center;
+ margin-top: 0px;
+ padding: 0px;  
+ padding-bottom: 50px;
+}
+
+.footer {
+ background-color: #1F2937;
+ justify-content: center;
+ display: flex;
+ width: 100%;   
+}
+
+.footer p {
+ color: white;   
+ text-align: center;
+}
+
+.information h1 {
+ width: 100px;
+ height: 100px;
+ border-radius: 10px;   
+ border: 3px solid #3882F6;   
+}
+
+.image-holder {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.image-holder h1 {
+  margin: 0px;
+  padding: 0px;   
 }
