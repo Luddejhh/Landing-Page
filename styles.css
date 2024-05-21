@@ -4,18 +4,59 @@ body {
  box-sizing: border-box;
 }
 
-.header {
- display: flex;   
- flex-direction: column;
- align-items: center;
+.logo, .awesome-website-text, .sign-up-button {
+ font-weight: bold;   
 }
 
 .logo, .awesome-website-text {
  color: #F9FAF8;   
 }
 
-.website-info, .logo {
- align-self: start;   
+.navbar {
+ padding-left: 200px;
+ padding-right: 200px;   
+ display: flex;
+ justify-content: space-between;   
+ flex-direction: row;
+ align-self: start;
+}
+
+.website-info {
+ margin-top: 50px; 
+ padding-left: 200px;
+ padding-right: 200px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;    
+}
+
+.sign-up-button {
+ background-color: #3882F6;   
+ width: 90px;
+ border: 0px;
+ border-radius: 10px;
+ color: #F9FAF8;
+ height: 30px;
+}
+
+.placeholder-image {
+ align-items: center;  
+ width: 400px; 
+ background-color: gray;   
+}
+
+
+.header-links ul li{
+ display: flex;
+}
+
+.list {
+ display: flex;
+ gap: 20px;
+}
+
+.header {
+ padding-bottom: 100px;   
 }
 
 .hero, .header p {
